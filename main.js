@@ -24,15 +24,18 @@ if(Points>awayPoints){
     Away ${team2} score ${awayPoints}`);
 }
     
-    if(awayPoints>Points){
+    if(awayPoints>Points ){
         alert(`${team2} has Defeated ${team1}!!!
         
-        Home ${team2} score: ${awayPoints}
-    Away ${team1} score ${Points}`);
+        Away ${team2} score: ${awayPoints}
+    Home ${team1} score ${Points}`);
 
     }
     if(Points==awayPoints){
-        alert("It was a Draw!!!")
+        alert(`It was a Draw!!!
+        
+        Home ${team2} score: ${awayPoints}
+        Away ${team1} score: ${Points}`)
     }
 
 
