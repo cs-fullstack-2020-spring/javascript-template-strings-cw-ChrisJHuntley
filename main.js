@@ -13,29 +13,31 @@
 
 
 
-let team1=prompt("What is your Home Team?");
-let team2=prompt("What is your Away Team?");
-let Points=prompt(`How many points did ${team1} have?`);
-let awayPoints=prompt(`How many points did ${team2} have?`);
-if(Points>awayPoints){
+//  !! : use CTRL + SHIFT + I to reformat your code
+// !! : this section should have comments
+// !! : consider using else if() and else instead of three unrelated if statments
+let team1 = prompt("What is your Home Team?");
+let team2 = prompt("What is your Away Team?");
+let Points = prompt(`How many points did ${team1} have?`);
+let awayPoints = prompt(`How many points did ${team2} have?`);
+if (Points > awayPoints) {
     alert(`${team1} has Defeated ${team2}!!!
     
     Home ${team1} score: ${Points}
     Away ${team2} score ${awayPoints}`);
 }
-    
-    if(awayPoints>Points ){
-        alert(`${team2} has Defeated ${team1}!!!
+if (awayPoints > Points) {
+    alert(`${team2} has Defeated ${team1}!!!
         
         Away ${team2} score: ${awayPoints}
     Home ${team1} score ${Points}`);
 
-    }
-    if(Points==awayPoints){
-        alert(`It was a Draw!!!
+}
+if (Points == awayPoints) {
+    alert(`It was a Draw!!!
         
         Home ${team2} score: ${awayPoints}
         Away ${team1} score: ${Points}`)
-    }
+}
 
 
